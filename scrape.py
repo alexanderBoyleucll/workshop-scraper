@@ -6,8 +6,9 @@ from supabase import create_client
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-SUPABASE_URL = os.environ["https://certtklwfzhrazsrqwgp.supabase.co"]
-SUPABASE_KEY = os.environ["sb_publishable_LzYPt0XFHN2uYtTk0opacw_0bEPS1U1"]
+
+SUPABASE_URL = os.environ["SUPABASE_URL"]
+SUPABASE_KEY = os.environ["SUPABASE_KEY"]
 
 
 url = "https://www.scrapethissite.com/pages/simple/"
